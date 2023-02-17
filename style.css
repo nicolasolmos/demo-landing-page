@@ -1,0 +1,52 @@
+html {
+  font-family: 'Roboto';
+  background-color: #202020;
+}
+
+h1 {
+  font-size: 6rem;
+  color: white;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  background-color: red;
+  padding: 2rem;
+  padding-bottom: 5rem;
+}
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section-text {
+  color: #fff8f8;
+  font-weight: bold;
+}
+
+.section-text p {
+  background-color: rgba(0, 0, 0, 0.6);
+
+padding: 2rem;
+border-radius: 7px;
+}
+
+.section-one {
+  background-image: url("./Cartel_de_Ushuaia.jpg");
+
+}
+
+.section-two {
+  background-image: url("./landscape-sea-coast-nature-mountain-snow-1105389-pxhere.com.jpg");
+}
+
+.section-three {
+  background-image: url("./ushuaia-2563065_1280.jpg");
+}
