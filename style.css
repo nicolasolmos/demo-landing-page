@@ -1,3 +1,8 @@
+:root {
+  --light-text-color: #fff8f8;
+  --light-bg-color: #cac2c2;
+}
+
 html {
   font-family: 'Roboto';
   background-color: #202020;
@@ -34,8 +39,8 @@ section {
 .section-text p {
   background-color: rgba(0, 0, 0, 0.6);
 
-padding: 2rem;
-border-radius: 7px;
+  padding: 2rem;
+  border-radius: 7px;
 }
 
 .section-one {
@@ -49,4 +54,25 @@ border-radius: 7px;
 
 .section-three {
   background-image: url("./ushuaia-2563065_1280.jpg");
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  margin: 2rem;
+}
+
+address {
+  margin: 5rem;
+  padding: 2rem;
+  color: var(--light-text-color);
+  background-color: var(--light-bg-color);
+  line-height: 2rem;
+  border-radius: 7px;
+}
+
+address i,
+address a {
+  display: block;
 }
